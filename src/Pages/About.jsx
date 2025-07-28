@@ -13,9 +13,10 @@ const About = ({brightNess}) => {
         </div>
         <div className="about-content shadow-lg  rounded p-3">
             <h2>about me</h2>
-            <h4>A dedicated Front-end Developer</h4>
-            <p> I'm Subekshya Kharel, a frontend developer currently pursuing a Bachelor of Science in Computer Science and Information Technology, set to graduate in 2028. </p>
-            <p>Passionate about crafting engaging and user-centric digital experiences, my journey has been a dynamic blend of creativity and technology. </p>
+            <h4>A Dedicated Full-Stack Developer</h4>
+<p>My name is Subekshya Kharel, and I am a Full-Stack developer currently pursuing a Bachelor of Science in Computer Science and Information Technology, with an expected graduation in 2028.</p>
+<p>I am passionate about designing engaging and user-focused digital experiences, blending creativity and technology to deliver impactful solutions.</p>
+
         </div>
     </div>
 </div>

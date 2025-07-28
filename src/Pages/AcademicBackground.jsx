@@ -46,14 +46,13 @@ const AcademicBackground = ({brightNess}) => {
           <br />
           <ul className="list-unstyled">
             <li>
-              Currently pursuing a Bachelor of Science in Computer Science and Information Technology,
-              gaining comprehensive knowledge in various IT domains.(Set to
-              graduate in 2028){" "}
-            </li>
-            <br />
-            <li>
-            Studying data structures and algorithms to write efficient code, solve complex problems, and build a strong foundation for technical interviews and real-world applications
-            </li>
+  Currently pursuing a Bachelor of Science in Computer Science and Information Technology, building a strong foundation across various IT fields. (Expected to graduate in 2028)
+</li>
+<br />
+<li>
+  Committed to developing problem-solving skills and writing efficient, clean code to create effective and scalable software solutions.
+</li>
+
             
           </ul>
         </VerticalTimelineElement>
