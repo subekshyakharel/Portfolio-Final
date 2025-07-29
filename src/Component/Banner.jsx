@@ -8,10 +8,10 @@ const Banner = () => {
       <div className="  banner">
         <div className="d-flex flex-column gap-3 content">
           {/* <h3 className="custom-color">Hello !</h3> */}
-          <h1 className="title">FrontEnd Developer</h1>
+          <h1 className="title">Full-Stack Developer</h1>
 
           <p>
-          I'm Subekshya Kharel, a passionate Front-End Developer dedicated to crafting robust, user-centric web solutions with a focus on both design and functionality.
+          I'm Subekshya Kharel, a passionate Full-Stack Developer dedicated to crafting robust, user-centric web solutions with a focus on both design and functionality.
           </p>
           {/* <div className=" info ">
             <button>Check My CV</button>
