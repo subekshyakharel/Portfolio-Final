@@ -4,6 +4,8 @@ import "./project.css";
 import trailerworld from "../assets/trailerworld.png";
 import financeTracker from "../assets/financeTracker.png";
 import libraryManagement from "../assets/libraryManagement.png";
+import clientPanel from "../assets/clientPanel.png"
+import adminPanel from "../assets/adminPanel.png"
 const Project = ({ brightNess }) => {
 
   return (
@@ -15,6 +17,91 @@ const Project = ({ brightNess }) => {
       <h1 className="text-center custom-color py-5 my-5">My Latest Projects</h1>
 
       <div className="projectContainer">
+        <div className="projectSection1 px-4">
+          <div className="img d-flex justify-content-center align-items-center">
+            <img width={"100%"} src={clientPanel} alt="project_image" />
+          </div>
+          <div className="description d-flex flex-column gap-4">
+            <h5 className="fw-bold text-center">E-commerce(Client Panel)</h5>
+            <p className="text-center" style={{ margin: 0 }}>
+            This e-commerce client panel is a user-focused web application that enables customers to browse products, filter by categories, view product details, and manage their shopping cart. Users can create accounts, log in securely, place orders, and track their purchases through a clean and responsive interface. The application is designed to provide smooth navigation, real-time updates, and an intuitive shopping experience across all devices.
+            </p>
+            <div className="fw-bold d-flex gap-3 flex-nowrap justify-content-center">
+              <div>React</div>
+              <div>Node.js</div>
+              <div>MongoDB</div>
+              <div>Express.js</div>
+              <div>Redux</div>
+            </div>
+
+            <div className="d-flex justify-content-center gap-4 ">
+              <div>
+                Code{" "}
+                <a
+                  href="https://github.com/subekshyakharel/Ecommerce-ClientPanel"
+                  target="_blank"
+                  style={{ color: "inherit", fontSize: "25px" }}
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+              </div>
+              <div>
+                Live Demo{" "}
+                <a
+                  href="https://ecommerce-client-panel-czdy.vercel.app/"
+                  target="_blank"
+                  style={{ color: "inherit", fontSize: "25px" }}
+                >
+                  <i className="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div className="projectSection1 px-4">
+          <div className="description d-flex flex-column gap-4">
+            <h5 className="fw-bold text-center">E-Commerce(Admin Panel)</h5>
+            <p className="text-center" style={{ margin: 0 }}>
+           The e-commerce admin panel is a centralized dashboard designed to manage products, categories, users, and orders efficiently. It allows administrators to add, update, and delete products, monitor order statuses, and manage user accounts through a secure interface. The panel provides real-time data updates and a structured workflow to ensure smooth store operations and effective control over the platform.
+            </p>
+            <div className="fw-bold d-flex gap-3 flex-nowrap justify-content-center">
+              <div>React</div>
+              <div>Node.js</div>
+              <div>MongoDB</div>
+              <div>Express.js</div>
+              <div>Redux</div>
+            </div>
+
+            <div className="d-flex justify-content-center gap-4 ">
+              <div>
+                Code{" "}
+                <a
+                  href="https://github.com/subekshyakharel/Ecommerce-AdminPanel"
+                  target="_blank"
+                  style={{ color: "inherit", fontSize: "25px" }}
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+              </div>
+              <div>
+                Live Demo{" "}
+                <a
+                  href="https://ecommerce-admin-panel-tau.vercel.app/"
+                  target="_blank"
+                  style={{ color: "inherit", fontSize: "25px" }}
+                >
+                  <i className="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="img d-flex justify-content-center align-items-center">
+            <img width={"100%"} src={adminPanel} alt="project_image" />
+          </div>
+          
+        </div>
+
         <div className="projectSection1 px-4">
           <div className="img d-flex justify-content-center align-items-center">
             <img width={"100%"} src={trailerworld} alt="project_image" />
